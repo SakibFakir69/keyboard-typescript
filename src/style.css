@@ -1,0 +1,51 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+#app{
+  height:350px;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contanier{
+  height:250px;
+  width:100%;
+  border:2px solid rgb(179, 170, 170);
+  background-color: red;
+  padding: 1em;
+  text-align: center;
+
+}
+#input{
+  height:50px;
+  width:100%;
+}
+
+
+
+.btn{
+  height:50px;
+  width:100px;
+  margin-top: 20px;
+  text-align: center;
+  
+}
+#number{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(5,1fr);
+  flex-direction:row;
+  gap:10px;
+  text-align: center;
+  margin:0 auto;
+
+}
+
